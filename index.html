@@ -1,0 +1,160 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport"
+            content="width=device-width,initial-scale=1"><title>CAREER DNA —
+            Discover Your Pattern</title><meta name="description"
+            content="CAREER DNA uses 20 indirect questions and a 600+ career database to reveal potential career paths based on how you think and work."><link
+            rel="stylesheet" href="style.css"></head><body>
+        <div class="grid-backdrop" aria-hidden="true"></div>
+        <header class="site-nav"><a class="nav-logo" href="#home"
+                aria-label="CAREER DNA home"><span class="dna-dot"></span>CAREER
+                DNA</a><nav id="nav-links"><a href="#home">Home</a><a
+                    href="#how">How It Works</a><a href="#careers">Careers</a><button class="nav-cta"
+                    data-start>Start Assessment</button></nav><button
+                class="menu-btn" id="menu-btn"
+                aria-label="Open menu">☰</button></header>
+        <main>
+            <section class="page active" id="page-home"><div class="hero"><div
+                        class="hero-copy"><span class="eyebrow">CAREER DISCOVERY
+                            ENGINE</span><h1 class="display">DON'T CHOOSE A
+                            CAREER.<br><span>DISCOVER YOUR
+                                PATTERN.</span></h1><p>20 questions. 600+ career
+                            paths. One personalized map of where your strengths,
+                            interests and working style could lead.</p><div
+                            class="actions"><button class="primary"
+                                data-start>Start Assessment</button><a
+                                class="secondary" href="#careers">Explore Careers</a></div><div
+                            class="hero-meta"><span>20
+                                questions</span><span>600+ real
+                                careers</span><span>10
+                                matches</span></div></div><div class="hero-visual"
+                    aria-label="Your career pattern"><span class="word w1">LOGIC</span><span
+                        class="word w2">CREATE</span><span class="word w3">PEOPLE</span><span
+                        class="word w4">DATA</span><span class="word w5">BUILD</span><span
+                        class="word w6">DISCOVER</span><div class="center-text"><strong>FIND<br>YOURSELF??</strong></div></div></div><section
+                    class="home-section"><div class="section-head"><span
+                            class="eyebrow">WHY CAREER DNA?</span><h2
+                            class="display">Not a career quiz.<br>A
+                            pattern-matching engine.</h2><p>It never asks which
+                            job title you want. It looks at how you reason,
+                            create, communicate, decide, learn and work — then
+                            compares that profile with hundreds of real
+                            paths.</p></div><div
+                        class="feature-grid"><article><span>01</span><h3>DISCOVER</h3><p>Understand
+                                the tendencies behind your
+                                choices.</p></article><article><span>02</span><h3>ANALYZE</h3><p>Turn
+                                answers into a multidimensional
+                                profile.</p></article><article><span>03</span><h3>MATCH</h3><p>Compare
+                                your pattern against a broad career
+                                landscape.</p></article></div><div class="twenty"><strong>20</strong><div><b>Twenty questions. No career hints.</b><p>Every answer contributes to several hidden traits, so a single choice never decides your result.</p></div></div></section></section>
+            <section class="page" id="page-how"><div class="page-hero"><span
+                        class="eyebrow">THE ENGINE</span><h1 class="display">HOW
+                        IT WORKS</h1><p>From a choice on a screen to a map of
+                        possible directions.</p></div><div class="process">
+                    <article><b>01</b><h3>ANSWER</h3><p>Answer exactly 20
+                            natural, scenario-based
+                            questions.</p></article><article><b>02</b><h3>PROFILE</h3><p>Your
+                            choices build signals across reasoning, creativity,
+                            people, work style and
+                            motivation.</p></article><article><b>03</b><h3>ANALYZE</h3><p>The
+                            engine normalizes your multidimensional profile to
+                            0–100.</p></article><article><b>04</b><h3>MATCH</h3><p>That
+                            profile is compared with 600+ genuine
+                            careers.</p></article><article><b>05</b><h3>RANK</h3><p>Weighted
+                            similarity produces deterministic compatibility
+                            scores.</p></article><article><b>06</b><h3>DISCOVER</h3><p>You
+                            see exactly 10 potential matches, plus ways to test
+                            them.</p></article></div><div
+                    class="flow-visual"><div>QUESTION</div><span>↓</span><div>HIDDEN
+                        TRAITS</div><span>↓</span><div>PROFILE</div><span>↓</span><div>CAREER
+                        MATCHING</div><span>↓</span><div>TOP 10</div></div><div
+                    class="note"><b>Important:</b> compatibility is a guidance
+                    signal, not a prediction, guarantee or statement of what you
+                    should become.</div></section>
+            <section class="page" id="page-careers"><div
+                    class="page-hero compact"><span class="eyebrow">CAREER
+                        EXPLORER</span><h1 class="display">600+ REAL CAREER
+                        PATHS.</h1><p>Search the landscape before or after your
+                        assessment.</p></div><div class="explorer-tools"><input
+                        id="career-search" placeholder="Search careers…"
+                        aria-label="Search careers"><select id="domain-filter"
+                        aria-label="Filter by domain"><option value>All
+                            domains</option></select><select id="sort-careers"
+                        aria-label="Sort careers"><option
+                            value="name">A–Z</option><option
+                            value="domain">Domain</option></select></div><div
+                    class="explorer-count" id="explorer-count"></div><div
+                    class="career-grid" id="career-grid"></div><div
+                    class="career-modal" id="career-modal" hidden><div
+                        class="modal-backdrop" data-close-modal></div><article
+                        class="modal-card"><button class="modal-close"
+                            data-close-modal aria-label="Close">×</button><span
+                            class="domain" id="modal-domain"></span><h2
+                            class="display" id="modal-name"></h2><p
+                            id="modal-description"></p><div
+                            class="modal-grid"><div><b>Skills</b><div
+                                    id="modal-skills"
+                                    class="pills"></div></div><div><b>Work
+                                    style</b><p
+                                    id="modal-style"></p></div><div><b>Environment</b><p
+                                    id="modal-environment"></p></div><div><b>Education
+                                    / training</b><p
+                                    id="modal-education"></p></div></div><div><b>Related
+                                careers</b><p id="modal-related"></p></div><a
+                            class="primary modal-cta" href="#assessment">Take
+                            Assessment</a></article></div></section>
+            <section class="page" id="page-assessment"><div
+                    class="assessment-shell"><div class="assessment-top"><span
+                            class="eyebrow">CAREER DNA / ASSESSMENT</span><span
+                            class="mono" id="q-counter">01 / 20</span><div
+                            class="progress"><div
+                                id="progress-fill"></div></div></div><h1
+                        class="display" id="q-text">Loading…</h1><div
+                        class="answers" id="q-answers"></div><div
+                        class="assessment-nav"><button class="ghost"
+                            id="back-btn">← Back</button><span class="mono"
+                            id="answer-state">Choose the answer that feels most
+                            like you.</span></div><div
+                        class="nova"><b>NOVA</b><span id="nova-text">Ready when
+                            you are. Pick what feels true, not
+                            impressive.</span></div></div></section>
+            <section class="page" id="page-analysis"><div class="analysis"><div
+                        class="spinner"></div><span class="eyebrow">PROFILE
+                        SYNTHESIS</span><h1 class="display">READING YOUR
+                        PATTERN…</h1><ul
+                        id="analysis-lines"></ul></div></section>
+            <section class="page" id="page-results"><div
+                    class="results-head"><span class="eyebrow">YOUR CAREER
+                        DNA</span><h1 class="display">Your pattern currently
+                        aligns with these paths.</h1><p>Potential matches, not a
+                        verdict. Use the list as a starting point for
+                        exploration.</p><div class="result-actions"><button
+                            class="primary" data-start>Retake
+                            Assessment</button><button class="secondary"
+                            id="reset-btn">Reset Data</button></div></div><div
+                    class="profile-layout"><div
+                        class="panel radar-panel"><canvas id="radar" width="600"
+                            height="420"></canvas></div><div
+                        class="panel"><h3>CORE SIGNALS</h3><div
+                            id="trait-bars"></div></div></div><div
+                    class="domain-panel panel"><div
+                        class="section-head small"><span class="eyebrow">PROFILE
+                            SHAPE</span><h2 class="display">Strongest domain
+                            signals</h2></div><div
+                        id="domain-bars"></div></div><div
+                    class="section-head small"><span class="eyebrow">TOP
+                        10</span><h2 class="display">Your strongest potential
+                        matches.</h2></div><div class="top10"
+                    id="top10"></div><div class="section-head small"><span
+                        class="eyebrow">TRY THEM</span><h2 class="display">Turn
+                        curiosity into evidence.</h2><p>Small experiments can
+                        tell you more than a quiz ever can.</p></div><div
+                    class="activity-grid" id="activities"></div><div
+                    class="roadmap panel" id="roadmap"></div><div
+                    class="history panel" id="history"></div></section>
+        </main>
+        <footer><b>CAREER DNA</b><span>Discover how you think. Build what comes
+            next.</span><div><a href="privacy.html">Privacy</a><a
+            href="terms.html">Terms</a></div></footer>
+        <script src="questions.js"></script><script
+            src="careers.js"></script><script src="projects.js"></script><script
+            src="scoring.js"></script><script src="storage.js"></script><script
+            src="app.js"></script></body></html>
