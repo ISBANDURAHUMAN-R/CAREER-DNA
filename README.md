@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/banner.png" alt="CAREER-DNA Banner" width="100%">
+</p>
+
 # CAREER DNA
 
 **"Don't tell us what job you want. Tell us how you think."**
