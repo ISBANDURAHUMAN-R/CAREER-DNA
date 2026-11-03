@@ -2,6 +2,14 @@
   <img src="assets/banner.png" alt="CAREER-DNA Banner" width="100%">
 </p>
 
+<div align="center">
+
+[![Live Demo](https://img.shields.io/badge/Live_Website-Active_Deployment-00C853?style=for-the-badge&logo=googlechrome&logoColor=white)](https://isbandurahuman-r.github.io/CAREER-DNA/)
+
+🚀 **[Launch Interactive Career Engine ➔](https://isbandurahuman-r.github.io/CAREER-DNA/)**
+
+</div>
+
 # CAREER DNA
 
 **"Don't tell us what job you want. Tell us how you think."**
