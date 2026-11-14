@@ -107,7 +107,7 @@ Nothing about this mapping is shown to the user during the quiz — the question
 
 ---
 
-## 💾 What's stored in `localStorage`
+## ❖ What's stored in `localStorage`
 
 Key: `careerDnaState_v1`
 
