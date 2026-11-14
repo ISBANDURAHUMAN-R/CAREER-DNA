@@ -6,11 +6,11 @@
 
 [![Live Demo](https://img.shields.io/badge/Live_Website-Active_Deployment-00C853?style=for-the-badge&logo=googlechrome&logoColor=white)](https://isbandurahuman-r.github.io/CAREER-DNA/)
 
-🚀 **[Launch Interactive Career Engine ➔](https://isbandurahuman-r.github.io/CAREER-DNA/)**
+› **[Launch Interactive Career Engine »](https://isbandurahuman-r.github.io/CAREER-DNA/)**
 
 </div>
 
-# CAREER DNA
+# ◈ CAREER DNA
 
 **"Don't tell us what job you want. Tell us how you think."**
 
@@ -20,7 +20,7 @@ CAREER DNA is a frontend-only, interactive career discovery experience. Instead 
 
 ---
 
-##  Features
+## ✦ Features
 
 - **20-question DNA Sequence** — a full-screen, one-question-at-a-time quiz with animated answer cards and an in-flow AI guide, **NOVA**, who reacts to each pick.
 - **Weighted scoring engine** — every answer contributes points to multiple career categories *and* multiple skill dimensions at once; nothing is hardcoded.
@@ -34,7 +34,7 @@ CAREER DNA is a frontend-only, interactive career discovery experience. Instead 
 
 ---
 
-## 🧱 Tech stack
+## ⬢ Tech stack
 
 - HTML5 / CSS3 / Vanilla JavaScript (no framework, no build step)
 - [Three.js](https://threejs.org/) (r128, via CDN) for the hero DNA visual
@@ -44,7 +44,7 @@ CAREER DNA is a frontend-only, interactive career discovery experience. Instead 
 
 ---
 
-## 📁 Project structure
+## □ Project structure
 
 ```
 career-dna/
@@ -74,7 +74,7 @@ The app is a single-page experience: `index.html` contains four `<section>` "scr
 
 ---
 
-## 🚀 Running it locally
+## ▲ Running it locally
 
 No build step, no npm install. Two options:
 
@@ -94,7 +94,7 @@ npx serve .
 
 ---
 
-## 🧠 How the scoring works
+## § How the scoring works
 
 1. **`questions.js`** defines 20 questions, each with 4 answers. Every answer carries two weighted point objects:
    - `career`: points toward one or more of `ai, ml, software, frontend, uiux, data, cybersecurity, devops`
@@ -127,7 +127,7 @@ Key: `careerDnaState_v1`
 
 ---
 
-## ♿ Accessibility
+## ◎ Accessibility
 
 - Semantic headings and landmark elements throughout.
 - Answer cards use `role="radiogroup"` / `role="radio"` with `aria-checked`.
@@ -137,7 +137,7 @@ Key: `careerDnaState_v1`
 
 ---
 
-## 📸 Screenshots
+## 彡 Screenshots
 
 _Add screenshots here once deployed — suggested shots:_
 - `screenshots/hero.png` — landing page hero with the 3D DNA helix
@@ -147,7 +147,7 @@ _Add screenshots here once deployed — suggested shots:_
 
 ---
 
-## 🔭 Possible extensions
+## ▸ Possible extensions
 
 - Swap the canvas radar chart for a WebGL/animated version.
 - Add a shareable results card (image export) for social sharing.
