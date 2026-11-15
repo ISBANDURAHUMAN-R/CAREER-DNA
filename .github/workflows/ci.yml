@@ -1,0 +1,35 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate:
+    name: Syntax & Asset Integrity
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Validate JavaScript Syntax
+        run: |
+          node -c app.js
+          node -c careers.js
+          node -c projects.js
+          node -c questions.js
+          node -c scoring.js
+          node -c storage.js
+
+      - name: Verify Web Entrypoint & Assets
+        run: |
+          test -f index.html || exit 1
+          test -f style.css || exit 1
+          echo "CAREER-DNA assets and logic validated successfully."
